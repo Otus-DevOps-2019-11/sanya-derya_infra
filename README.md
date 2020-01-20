@@ -1,3 +1,13 @@
+#HomeWork № 5 Paker-Base:
+
+- Установлен ACD;
+- Установлен Packer;
+- Создан template;
+- С помощью Packer создан образ VM;
+- Расмотрены варианты использования пользовательских переменных,
+а тажке обязательных переменных;
+- На практике отработан подход Immutable infrastracture.
+
 #Подключение к someinternalhost в одну строку:
 ssh -i ~/.ssh/appuser -A -tt  appuser@35.195.249.162 ssh -tt 10.132.0.3
 #Прописать в ~/.ssh/config алиас:
