@@ -1,0 +1,9 @@
+---
+plugin: gcp_compute
+projects:
+  - infra-262520
+zones:
+  - "europe-west1-b"
+filters: []
+auth_kind: 565815554413-compute@developer.gserviceaccount.com
+service_account_file: "/root/otus/sanya-derya_infra/infra-262520-b13f5c75e097.json"
