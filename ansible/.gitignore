@@ -1,3 +1,4 @@
 *.retry
 inventory.gcp.yml
 invent/
+jdauphant.nginx
