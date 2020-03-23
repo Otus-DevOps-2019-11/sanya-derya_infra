@@ -8,3 +8,12 @@ resource "google_compute_firewall" "firewall_ssh" {
   }
   source_ranges = var.source_ranges
 }
+
+resource "google_compute_firewall" "firewall_nginx" {
+  name = "default-nginx"
+  network = "default"
+  allow {
+        protocol = "tcp"
+        ports = ["80"]
+  }
+}
